@@ -1,0 +1,63 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0px;
+    padding: 0px;
+
+}
+header{
+    padding: 2%;
+    background-color: rgb(43, 39, 39);
+    max-width: 120%;
+}
+.header{
+    margin-right: 20px;
+}
+
+img.header{
+    width: 20%;
+    height: 70%;
+}
+
+ul.lista-header {
+    list-style-type: none;
+    display: inline;
+    position:relative;
+    float:right;
+    top:1em;
+}
+
+ul.lista-header li{
+    color:aliceblue;
+    width: 4%;
+    display: inline;
+    padding-right: 2em;
+    font-size: large;
+}
+
+.banner{
+    background-image: url(multimedia/funkos-banner.webp);
+    height: 20%;
+}
+
+.ultimos-lanzamientos{
+    font-size: large;
+}
+
+footer{
+    background-color: rgb(43, 39, 39);
+    height: 60%;
+
+}
+
+ul.lista-footer li{
+    color:aliceblue;
+    font-size: large;
+    padding: 0.5em;
+    margin-left: 5em;
+    list-style-type: none;
+
+}
+
+.footer img{
+    display: flex;
+}
