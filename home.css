@@ -43,21 +43,25 @@ ul.lista-header li{
     font-size: large;
 }
 
-footer{
+#footer{
+    display: flex;
+    flex-direction: row;
     background-color: rgb(43, 39, 39);
-    height: 60%;
+    padding-top: 4%;
 
 }
 
 ul.lista-footer li{
     color:aliceblue;
-    font-size: large;
+    font-size: larger;
     padding: 0.5em;
     margin-left: 5em;
     list-style-type: none;
 
 }
 
-.footer img{
-    display: flex;
+#footer .foto-footer{
+    padding-left: 70%;
+    padding-bottom: 4%;
+
 }
